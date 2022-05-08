@@ -23,7 +23,7 @@ const SnackCard = (props) => {
       </Box>
       <Box p="2">
         <Heading size="sm">{props.name}</Heading>
-        <Text fontSize="sm">{props.price}</Text>
+        <Text fontSize="sm">Rp. {props.price}</Text>
         <Text fontSize="sm">{props.available ? "tersedia" : "habis"}</Text>
       </Box>
     </Box>
